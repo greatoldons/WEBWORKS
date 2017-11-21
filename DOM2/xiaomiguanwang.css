@@ -1,0 +1,67 @@
+body{
+	text-align: center;
+	background-color: #f2f2f2;
+}
+*{
+	font:normal 12px "微软雅黑";
+}
+#table1{	
+	text-align: center;
+	height: 700px;
+}
+td{
+	background-color: white;
+	border: 30px;
+	width: 260px;
+	height:310px;
+}
+.nav{
+	/*JavaScript*/
+	
+}
+
+#subMenuShow div{
+	display:block;
+}
+.cts{	
+	height: 50px;
+	margin-top: -80px;
+	position: relative;
+	display:none;
+	
+}
+#text1/*商品名*/
+{
+	height: 10px;
+	color:black;
+	font-size: 16px;
+	font-style:bold;
+	text-align: center;
+}
+#text2/*介绍*/{
+	color: #C0C0C0;
+	height: 10px;
+	text-align: center;
+}
+#text3/*价格*/
+{
+	color: #FF8C00;
+	font-size:16px;
+	height: 10px;
+	text-align: center;
+}
+#text4/*删除价格*/
+{
+	color: #C0C0C0;
+	font-size:16px;
+	text-decoration: line-through;
+}
+#text5/*弹出评论*/
+{
+	color:white;
+	font-size:14px;
+	background-color:#ff6700;
+	line-height:80px;
+	width: 260px;
+	height: 80px;
+}

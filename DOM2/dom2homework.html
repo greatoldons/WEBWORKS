@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>xiaomiguanwang</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="xiaomiguanwang.css">
+	<script type="text/javascript">
+		window.onload = function()
+		{
+			var L = document.getElementsByClassName("slide");
+			for (var i=0; i<L.length; i++)//鼠标指针移动到元素上时触发
+			{
+				L[i].onmouseover = function(){this.id = "subMenuShow";}
+				L[i].onmouseout = function(){this.id = "";}			
+			}
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<table id="table1">
+			<tr>
+				<td rowspan="2">					
+					<img src="images/1.jpg" height="700px" padding-left="0">
+				</td>
+				<td>
+					<div class="slide">
+					<img src="images/2.jpg">
+					<p id="text1">小米电视4A&nbsp32"</p>
+					<p id="text2">64位四核处理器/1GB+4GB大内存</p>
+					<p id="text3">999元<text id="text4">1199元</text></p>
+						<div class="cts"><p id="text5">据说小米客服满腹经纶，
+						那我先出上联</p></div>
+					</div>
+				</td>
+				<td>
+					<div class="slide">
+						<img src="images/3.png">
+						<p id="text1">小米电视4A &nbsp 49英寸 &nbsp 标准版</p>
+						<p id="text2">2GB+8GB大储存/全高清HDR</p>
+						<p id="text3">2399元</p>
+							<div class="cts"><p id="text5">黑科技！便宜大器大爱，支持国货！</p>
+							</div>
+					</div>
+				</td>
+				<td>
+					<div  class="slide">
+					<img src="images/4.jpg">
+					<p id="text1">小米笔记本Pro&nbsp15.6英寸</p>
+					<p id="text2">全金属强化机身/FHD全贴合屏幕</p>
+					<p id="text3">5599元</p>
+						<div class="cts"><p id="text5">和我想象的一样好，比如红米4.</p>
+						</div>
+					</div>
+				</td></p>
+				<td>
+					<div class="slide">
+					<img src="images/5.jpg">
+					<p id="text1">小米笔记本Air&nbsp13.3"i7处理器</p>
+					<p id="text2">Inter酷睿i7处理器，8GB内存+256GB</p>
+					<p id="text3">5999元></p>
+						<div class="cts"><p id="text5">全家桶来一波，别的不多说。</p></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="slide">
+					<img src="images/6.jpg">
+					<p id="text1">米家恒温电水壶</p>
+					<p id="text2">水温智能控制，304不锈钢内胆</p>
+					<p id="text3">189元<text id="text4">199元</text></p>
+						<div class="cts"><p id="text5">优雅的我烧一壶优雅的水，再泡一壶茶。</p>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="slide">
+					<img src="images/7.jpg">
+					<p id="text1">智米全直流变频空调</p>
+					<p id="text2">一级能效，强劲冷暖</p>
+					<p id="text3">4399元</p>
+					</div>
+				</td>
+				<td>
+					<div>
+					<img src="images/8.jpg">
+					<p id="text1">小米净水器（厨上式）增强版</p>
+					<p id="text2">400加仑大流量，纯水更多，废水更少</p>
+					<p id="text3">1499元</p>
+					<div class="cts"><p id="text5">客服妹子，这样的打开方式是正确的吗？</p></div>					
+					</div>
+				</td>
+				<td>
+					<table >
+						<tr>
+							<img src="images/9.jpg" width="240px">
+						</tr>
+						<tr>
+							<div>
+								<p style="font-size:18px;">浏览更多</p>
+							</div>
+							<div>
+								<a href="#"><img src="images/10.png"></a>
+							</div>
+						</tr>
+					</table>
+	</div>
+</body>
+</html>
